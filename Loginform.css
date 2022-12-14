@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(images/Moi_\ the_king\(sample3resized\)\ sisicomrade.com.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+img{
+    height: 70px;
+    width: 75px;
+    position: fixed;
+    margin-top: -140px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.login-box{
+    width: 480px;
+    height: 570px;
+    background-color: transparent black;
+    border-radius: 25px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 17vh;
+}
+
+.signup-box{
+    width: 480px;
+    height: 690px;
+    background-color: transparent black;
+    border-radius: 25px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 17vh;
+}
+
+.login-box:hover{
+    background-color: black;
+}
+
+.signup-box:hover{
+    background-color: black;
+}
+
+h1{
+    color:rgb(231, 135, 57);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 8px;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 5.5vh;
+
+}
+
+.line{
+    
+    margin-bottom: 20px;
+}
+
+#line{
+    margin-bottom: 50px
+
+}
+
+form{
+    width: 380px;
+    padding-left: 4em;
+}
+
+label{
+    display: flex;
+    color:bisque;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 7px;
+    border: 1px solid gray;
+}
+
+.input-box{
+    width: 83%;
+}
+
+input[type="button"]{
+    width: 60%;
+    background-color: rgb(175, 115, 58);
+    margin-left: 4em;
+    margin-top: 2.5em;
+    cursor: pointer;
+    border-radius: 21px;
+}
+
+#submit-btn{
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+#login-btn{
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+
+}
+
+
+p{
+    font-size: 20px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 30px;
+    color:rgb(180, 180, 82);
+}
+
+.navigation{
+    color: rgb(45, 154, 197);
+}
+
+.forgot-password{
+    color: skyblue;
+}
